@@ -1,0 +1,225 @@
+@charset "utf-8";
+*{
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+body{
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",YuGothic,"ヒラギノ角ゴ　ProN W3","Hiragino kaku Gothic ProN",Arial, "メイリオ",Meiryo, sans-serif;
+  color: #806342;
+  background-color: #fff;
+}
+h2{
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+a{
+  color: #806342;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+ul{
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+figure{
+  margin: 0;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+address{
+  font-size: normal;
+}
+/*ヘッダー*/
+.header{
+  padding-top:100px ;
+  padding-bottom:100px;
+  background-image:url("download.png");
+  background-size:cover;
+  color:rgb(14, 2, 2);
+  text-align: center;
+}
+h1{
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:4px;
+}
+/*メイン*/
+.main{
+  margin: 0 auto;
+}
+/*ナビ*/
+.nav{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.nav-list li{
+  display: inline-block;
+  margin: 0;
+  border-left: 1px solid #806342;
+}
+.nav-list li:first-child{
+  border-left: none;
+}
+.nav-list a{
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+/*セクション*/
+.section {
+  margin: 0 auto 80px;
+}
+/*ミダシ*/
+.heading img{
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+.heading{
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.heading-top{
+  display: flex;
+  text-align:center ;
+}
+.heading p{
+  font-size: 3em;
+  display: inline-block;
+  margin: 0;
+}
+/*モクヒョウ*/
+.mokuhyou{
+  text-align: center;
+}
+.mokuhyou p{
+  font-size: 35px;
+}
+/*ショウカイ*/
+.shoukai{
+  text-align: center;
+}
+.shoukai-list{
+   display: inline-block; 
+  margin-left: 30px;
+  list-style: disc;
+}
+.shoukai-list li{
+  margin-bottom: 10px;
+  text-align: left;
+}
+/*カゾク*/
+.kazoku-list{
+  display: flex;
+  justify-content: space-around;
+}
+.kazoku img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:2px solid  #00eeff;
+}
+figcaption{
+  padding:10px;
+}
+figcaption span{
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+/*ジュウショ*/
+.access{
+  width: 100%;
+}
+.access-row{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  -webkit-box-align:center ;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 50px;
+}
+.access-address{
+  font-size: 14px;
+  margin-right: 50px
+}
+.access-address strong{
+  display: block;
+  margin: 10px 0;
+  font-size: 22px;
+}
+.access-map{
+  -webkit-box-flex:0 ;
+  -ms-flex: 0 1 80px;
+  flex: 0 1 80px;
+  max-width: 80px;
+}
+/*フッター*/
+.footer{
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #806342;
+}
+.footer-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.footer-logo{
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100px;
+  flex: 0 1 100px;
+  max-width: 100px;
+  margin: 0;
+}
+.footer-body{
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  padding-top: 20px;
+}
+.footer-nav{
+  margin-bottom: 20px;
+}
+.footer-nav-list li{
+  display: inline-block;
+  margin: 0;
+  border-left: 1px solid #fff;
+}
+.footer-nav-list li:first-child{
+  border-left: none;
+}
+.footer-nav-list a{
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: uppercase;
+}
